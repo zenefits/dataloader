@@ -16,7 +16,7 @@
     "type": "git",
     "url": "http://github.com/facebook/dataloader.git"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "options": {
     "mocha": "--require resources/mocha-bootload src/**/__tests__/**/*.js"
   },
@@ -73,6 +73,7 @@
     "prepublish": ". ./resources/prepublish.sh"
   },
   "files": [
+    "dist",
     "index.js",
     "index.js.flow",
     "index.d.ts",
